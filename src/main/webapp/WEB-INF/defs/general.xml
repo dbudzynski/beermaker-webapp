@@ -10,5 +10,24 @@
     <definition name="index" extends="common">
     <put-attribute name="title" value="Beermaker Home Brewery" />
     <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+  	<put-attribute name="current" value="index"/>
+  </definition>
+  
+      <definition name="users" extends="common">
+    <put-attribute name="title" value="Users" />
+    <put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+  	<put-attribute name="current" value="users"/>
+  </definition>
+  
+  <definition name="recipes" extends="common">
+    <put-attribute name="title" value="Recipes" />
+    <put-attribute name="body" value="/WEB-INF/jsp/recipes.jsp" />
+  	<put-attribute name="current" value="recipes"/>
+  </definition>
+  
+    <definition name="recipe-details" extends="common">
+    <put-attribute name="title" value="Recipe Details" />
+    <put-attribute name="body" value="/WEB-INF/jsp/recipe-details.jsp" />
+  	<put-attribute name="current" value="recipes"/>
   </definition>
 </tiles-definitions>
